@@ -72,8 +72,6 @@ def cipher_decrypt(ciphertext, key):
             decrypted += str(c_og)
 
         else:
-
-
             decrypted += c
 
     return decrypted
