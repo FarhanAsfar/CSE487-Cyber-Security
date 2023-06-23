@@ -65,8 +65,6 @@ def cipher_decrypt(ciphertext, key):
             decrypted += c_og
 
         elif c.isdigit():
-
-
             c_og = (int(c) - key) % 10
 
             decrypted += str(c_og)
