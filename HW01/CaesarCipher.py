@@ -78,7 +78,6 @@ def cipher_decrypt(ciphertext, key):
 
     return decrypted
 
-
 plain_text = "Mate, the adventure ride in Canberra was so much fun, We were so drunk we ended up calling 911!"
 
 ciphertext = cipher_encrypt(plain_text, 4)
@@ -87,6 +86,7 @@ print("Plain text message:\n", plain_text)
 
 print("Encrypted ciphertext:\n", ciphertext)
 print("\n")
+
 
 ciphertext = "Qexi, xli ehzirxyvi vmhi mr Gerfivve aew ws qygl jyr, Ai aivi ws hvyro ai irhih yt geppmrk 355!"
 
