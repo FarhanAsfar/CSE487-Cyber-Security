@@ -8,7 +8,6 @@ def cipher_encrypt(plain_text, key):
 
             c_index = ord(c) - ord('A')
 
-
             c_shifted = (c_index + key) % 26 + ord('A')
 
             c_new = chr(c_shifted)
