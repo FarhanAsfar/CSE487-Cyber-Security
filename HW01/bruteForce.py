@@ -21,7 +21,6 @@ def cipher_decrypt_lower(ciphertext, key):
     return decrypted
 
 
-
 cryptic_text = "xli ehzirxyvi vmhi mr Gerfivve aew ws qygl jyr, Ai aivi ws hvyro ai irhih yt geppmrk"
 
 for i in range(0,26):
