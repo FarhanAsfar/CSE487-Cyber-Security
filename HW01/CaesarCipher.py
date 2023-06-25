@@ -16,7 +16,6 @@ def cipher_encrypt(plain_text, key):
 
         elif c.islower():
 
-
             c_index = ord(c) - ord('a')
 
             c_shifted = (c_index + key) % 26 + ord('a')
