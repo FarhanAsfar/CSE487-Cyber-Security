@@ -15,7 +15,6 @@ def cipher_decrypt_lower(ciphertext, key):
             decrypted += c_og
 
         else:
-
             decrypted += c
 
     return decrypted
